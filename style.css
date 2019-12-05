@@ -1,0 +1,115 @@
+body {
+    direction: rtl;
+    text-align: right;
+    font-family: 'Arial (Hebrew)', 'Arial';
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #909090;
+    padding-top: 1em;
+
+}
+
+footer{
+    position: fixed;
+    background-color: #909090;
+    bottom: 0;
+    width: 100%;
+    height: 38px;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 5px;
+    
+}
+
+footer > ul {
+    display: flex;
+    list-style: none;
+    flex-flow: row nowrap;
+    color: white;
+    font-size: 14px;
+    padding-inline-start: 0;
+    margin: 0 5px;
+    
+}
+
+.page-center{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.search {
+    display: flex;
+    justify-content: left;
+    direction: ltr;
+
+}
+
+header nav > ul{
+    list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 15px;
+    padding-inline-start: 0;
+}
+
+.menu-sep{
+    background: url('images/menu_sep.png') no-repeat 0 0px;
+    width:4px;
+    height: 21px;
+    margin: 0 5px;
+}
+
+li:not(.menu-sep) {
+    width: fit-content;
+}
+
+#lang-menu{
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    
+}
+
+nav{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+}
+
+#logo-div{
+    width: 100%; 
+    height: 1em; 
+    position: relative;
+    
+}
+
+#logo-div > img{
+    position: absolute; 
+    top:-34%; 
+    right: 6%;
+}
+
+.search-input{
+    background: url('images/search_input.png') no-repeat 0 0;
+
+}
+
+#search{
+    background: transparent;
+    border: none;
+}
+
+footer > ul > li:first-child{
+    background: url('images/fb_icon.png') no-repeat 0 0;
+    width: 18px;
+    height: 18px;
+}
