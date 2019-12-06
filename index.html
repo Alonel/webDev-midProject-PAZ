@@ -102,13 +102,13 @@
                 <div class="row-2">
                     <img src="images/small_cube_bg.png" alt="">
                     <h3>כרטיס אשראי שופרסל וכרטיס אשראי יש</h3>
-                    <img class="row-2-overlay" src="images/paz_250x110103131473.jpg" alt="">
+                    <img class="row-2-overlay" src="images/paz_250x110059890678.jpg" alt="">
                     <a class="row-2-overlay row-2-overlay-link row-2-links read-more" href=""><span>לפרטים נוספים</span></a>
                 </div>
                 <div class="row-2">
                     <img src="images/small_cube_bg.png" alt="">
                     <h3>yellow click&pick;</h3>
-                    <img class="row-2-overlay" src="images/paz_250x110059890678.jpg" alt="">
+                    <img id="bannerSwitcher" class="row-2-overlay" src="images/banner_atar.jpg" alt="">
                     <a class="row-2-overlay row-2-overlay-link row-2-links read-more" href=""><span>לפרטים נוספים</span></a>
                 </div>
                 <div class="row-2">
@@ -151,6 +151,18 @@
         </div>
     </footer>
 
+    <script>
+        setInterval(() => {
+            var image = document.getElementById("bannerSwitcher").src.split("/").pop(-1)
+            if (image == "banner_atar.jpg") {
+                document.getElementById("bannerSwitcher").src = "images/250X110668568400.jpg"
+            } else if (image == "250X110668568400.jpg") {
+                document.getElementById("bannerSwitcher").src = "images/paz_250x110103131473.jpg"
+            } else {
+                document.getElementById("bannerSwitcher").src = "images/banner_atar.jpg"
+            }
+        }, 3000);
+    </script>
 </body>
 
 </html>
