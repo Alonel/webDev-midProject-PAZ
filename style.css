@@ -80,6 +80,8 @@ nav{
 #search{
     background: transparent;
     border: none;
+    width: 132px;
+    margin-right: 12px;
 }
 
 footer{
@@ -236,6 +238,16 @@ div.row-1 > div > div:nth-child(2) > a {
 a.read-more:hover {
     color: #005ca0 !important;
     background: url("images/read_more_blue.png") no-repeat left center !important;
+}
+
+a:not(.read-more){
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #005ca0;
+    text-decoration: underline;
 }
 
 
