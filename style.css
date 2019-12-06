@@ -89,7 +89,7 @@ footer{
     width: 100%;
     height: 38px;
     padding-bottom: 5px;
-    
+    z-index: 3;    
 }
 
 footer > div > ul {
@@ -113,16 +113,23 @@ footer > div > ul > li:first-child{
     margin: 0 10px;
 }
 
+main{
+    position: absolute;
+    margin-bottom: 30px;
+}
+
 main > div.page-center {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
     margin-top: 25px;
-
+    margin-bottom: 25px;
+    justify-content: space-evenly;
 }
+
 
 div.row-1{
     position: relative;
+    margin-bottom: 15px;
     
 }
 
@@ -131,4 +138,63 @@ div.row-1{
     left: 0;
     
 }
+
+div.row-2{
+    position: relative;
+    
+}
+
+.row-2-overlay{
+    position: absolute;
+    z-index: 2;
+    right: 24px;
+    top: 50px;
+    
+}
+
+.row-2-left-cube{
+    right: 204px;
+    top:40px;
+}
+
+h3 {
+    font-size: 14px;
+    font-weight: 700;
+    position: absolute;
+    right: 25px;
+    color: #575757;
+}
+
+.row-2-overlay-link{
+    top: 180px;
+    right: 180px;
+    width: 90px;
+
+}
+
+.row-2-links{
+    color: #72716d;
+    font-size: 13px;
+    background: url("images/read_more_yellow.png") no-repeat left center;
+}
+
+div.row-2 > div {
+    position: absolute;
+    top: 45px;
+    right: 30px;
+    display: flex;
+    flex-flow: column;
+    width: 40px;
+}
+
+div.row-2 > div a{
+    display: block;
+    margin-bottom: 8px;
+    
+}
+
+
+
+
+
 
