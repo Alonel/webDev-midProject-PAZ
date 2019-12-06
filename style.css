@@ -16,7 +16,7 @@ header{
 }
 
 .page-center{
-    width: 70%;
+    width: 75%;
     margin: 0 auto;
 }
 
@@ -24,7 +24,7 @@ header{
     display: flex;
     justify-content: left;
     direction: ltr;
-    margin-left: 10%;
+    margin-left: 3%;
 
 }
 
@@ -43,7 +43,7 @@ header nav > ul{
     background: url('images/menu_sep.png') no-repeat 0 0px;
     width:4px;
     height: 21px;
-    margin: 0 5px;
+    margin: 0 17px;
 }
 
 #lang-menu{
@@ -57,7 +57,7 @@ nav{
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-end;
-    margin-left: 10%;
+    margin-left: 3%;
 }
 
 #logo-div{
@@ -110,5 +110,25 @@ footer > div > ul > li:first-child{
 }
 
 .footer-item{
-    margin: 0 4px;
+    margin: 0 10px;
 }
+
+main > div.page-center {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin-top: 25px;
+
+}
+
+div.row-1{
+    position: relative;
+    
+}
+
+.image-overlay{
+    position: absolute;
+    left: 0;
+    
+}
+
