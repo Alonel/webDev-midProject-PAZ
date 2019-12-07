@@ -115,10 +115,6 @@ footer > div > ul > li:first-child{
     margin: 0 10px;
 }
 
-main{
-    /* position: absolute; */
-    margin-bottom: 30px;
-}
 
 main > div.page-center {
     display: flex;
@@ -267,7 +263,7 @@ a:hover {
 }
 
 .left-col {
-    width: 42.5%;
+    width: 34.5%;
     display: flex;
     flex-flow: column wrap;
     align-items: flex-end;
@@ -301,15 +297,16 @@ a:hover {
 div.form {
     background:url("images/contact_form_bg.png") 0 0 no-repeat;
     width: 384px;
-    height: 245px;
+    height: 300px;
+    padding: 0 20px;
 }
 
 div.contact-us {
     background:url("images/cube_bg.png") 0 0 no-repeat;
     width: 295px;
-    height: 142px;
+    height: 145px;
     padding: 18px 22px 15px;
-    margin-top: 74px;
+    margin-top: 60px;
 
 }
 
@@ -320,3 +317,56 @@ div.more {
     padding: 18px 22px 15px;
 
 }
+
+.caption {
+    display: block;
+    color: #6d6d6d;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin: 5px 0;
+}
+
+section[class*="-col"] h2 {
+    color: #005ca0;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+div.more > p > a {
+    color: -webkit-link;
+    font-size: 13px;
+}
+
+div.form-row {
+    margin-bottom: 5px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+div.form-row > label {
+    width: 25%;
+}
+
+div.form-row > input {
+    width: 60%;
+}
+
+a.button {
+    font-size: 14px;
+    color: #fff;
+    background: url("images/button_blue.png") repeat-x 0 0;
+    line-height: 21px;
+    padding: 0 4px;
+    position: absolute;
+    left: 591px;
+    text-decoration: none;
+    
+}
+
+a.button:hover{
+    background: url("images/button_yellow.png") repeat-x 0 0;
+}
+
+
+
