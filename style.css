@@ -368,5 +368,28 @@ a.button:hover{
     background: url("images/button_yellow.png") repeat-x 0 0;
 }
 
+ul.sub-menu {
+    min-width: 8rem;
+    position: absolute;
+    margin-top: 2.2rem;
+    padding-inline-start: 1em;
+    background-color: #909090;
+    list-style: none;
+    display: none;
+    padding-top: 22px;
+    top: 44px;
+     
+}
 
+ul.sub-menu li {
+    padding: 5px 0;
+}
+ul.sub-menu li.sep {
+    background: url("images/menu_dropdown_sep.png") repeat-x 0 0;
+    
+}
 
+header li:hover ul.sub-menu {
+    display: block;
+    z-index: 999;
+}
